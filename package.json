@@ -1,0 +1,26 @@
+{
+  "name": "das",
+  "version": "1.0.0",
+  "description": "Metrolink's data acquisition system (DAS)",
+  "main": "sysMonIO.js",
+  "scripts": {
+    "test": "jest",
+    "login": "cd ./scripts && node ./login.js",
+    "start_pointsmon": "cd ./scripts/points && node ./pointsMonIO.js"
+  },
+  "keywords": [
+    "Metrolink",
+    "Data",
+    "Acquisition",
+    "System"
+  ],
+  "author": "Matt Cole",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "convict": "^6.2.4",
+    "moment": "^2.29.4",
+    "node-localstorage": "^3.0.5",
+    "tail": "^2.2.6"
+  }
+}
