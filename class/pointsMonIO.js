@@ -5,7 +5,7 @@ const tms = require('../shared/axios/tms');
 // const spark = require('../../../shared/axios/spark');
 const moment = require('moment');
 const LocalStorage = require('node-localstorage').LocalStorage;
-const localStorage = new LocalStorage('../scripts/tmp');
+const localStorage = new LocalStorage('../tmp');
 const idToken = localStorage.getItem('idToken');
 // const config = require('../../../config/config');
 // const sparkToken = config.get('sparkToken');
@@ -37,7 +37,7 @@ class PointsMonIO {
         let swingTime = null;
 
         //specifiy date for testing this is to be deleted
-        // const logDate = '2023-10-18';
+        // const logDate = '2023-11-12';
         
         //output what is being monitored
         console.log('Monitoring for', ioMonitorFor);
@@ -127,12 +127,12 @@ class PointsMonIO {
                             if(swingStart !== null) {
                                 swingTime = moment(swingEnd).diff(moment(swingStart), 'milliseconds');
                                 console.log('Swing Time', swingTime);
-                                // postPointTimings({
-                                //     id: this.id,
-                                //     direction: direction,
-                                //     swingTime: swingTime,
-                                //     tmsTimestamp: moment(swingStart).format('YYYY-MM-DD HH:mm:ss.SSS')
-                                // });
+                                postPointTimings({
+                                    id: this.id,
+                                    direction: direction,
+                                    swingTime: swingTime,
+                                    tmsTimestamp: moment(swingStart).format('YYYY-MM-DD HH:mm:ss.SSS')
+                                });
                             }
                         }
                     }

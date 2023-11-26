@@ -1030,5 +1030,314 @@ module.exports = points = [
                     relayType: 'ULTR'
                 }
         ]
+    },
+    {
+        id: 'TFB03M',
+        area: 'TFB',
+        path: paths.find(path => path.area === 'TFB').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'TB1-31',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'ULTR-1 Feedback',
+                    slot: 3,
+                    channel: 29,
+                    key: '1.29',
+                    on: 'Unloack Enabled',
+                    off: 'Unlock Disabled',
+                    relay: 'TB1-36',
+                    relayType: 'TB'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Points Set Right',
+                    slot: 4,
+                    channel: 1,
+                    key: '0.1',
+                    on: 'Drive On',
+                    off: 'Drive Off',
+                    relay: 'OP-R1',
+                    relayType: 'SPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Points Set Left',
+                    slot: 4,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Drive On',
+                    off: 'Drive Off',
+                    relay: 'OP-R2',
+                    relayType: 'SPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Unlock Command-1',
+                    slot: 4,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Unlock',
+                    off: 'Not Set',
+                    relay: 'TB2-36/A',
+                    relayType: 'ULTR'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Unlock Command-2',
+                    slot: 4,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Unlock',
+                    off: 'Not Set',
+                    relay: 'TB2-36/B',
+                    relayType: 'ULTR'
+                }
+        ]
+    },
+    {
+        id: 'TFB05M',
+        area: 'TFB',
+        path: paths.find(path => path.area === 'TFB').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 3,
+                    channel: 0,
+                    key: '1.0',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R32',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 3,
+                    channel: 1,
+                    key: '1.1',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R33',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 3,
+                    channel: 2,
+                    key: '1.2',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'TB1-33',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'ULTR-1 Feedback',
+                    slot: 3,
+                    channel: 30,
+                    key: '1.30',
+                    on: 'Unloack Enabled',
+                    off: 'Unlock Disabled',
+                    relay: 'TB1-37',
+                    relayType: 'TB'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Points Set Right',
+                    slot: 5,
+                    channel: 0,
+                    key: '1.0',
+                    on: 'Drive On',
+                    off: 'Drive Off',
+                    relay: 'OP-R32',
+                    relayType: 'SPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Points Set Left',
+                    slot: 5,
+                    channel: 1,
+                    key: '1.1',
+                    on: 'Drive On',
+                    off: 'Drive Off',
+                    relay: 'OP-R33',
+                    relayType: 'SPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Unlock Command-1',
+                    slot: 5,
+                    channel: 2,
+                    key: '1.2',
+                    on: 'Unlock',
+                    off: 'Not Set',
+                    relay: 'TB2-37/A',
+                    relayType: 'ULTR'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Unlock Command-2',
+                    slot: 5,
+                    channel: 3,
+                    key: '1.3',
+                    on: 'Unlock',
+                    off: 'Not Set',
+                    relay: 'TB2-37/A',
+                    relayType: 'ULTR'
+                }
+        ]
+    },
+    {
+        id: 'TFB06M',
+        area: 'TFB',
+        path: paths.find(path => path.area === 'TFB').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 3,
+                    channel: 3,
+                    key: '1.3',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R35',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 3,
+                    channel: 4,
+                    key: '1.4',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R36',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 3,
+                    channel: 5,
+                    key: '1.5',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'TB1-35',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'ULTR-1 Feedback',
+                    slot: 3,
+                    channel: 31,
+                    key: '1.31',
+                    on: 'Unloack Enabled',
+                    off: 'Unlock Disabled',
+                    relay: 'TB1-38',
+                    relayType: 'TB'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Points Set Right',
+                    slot: 5,
+                    channel: 4,
+                    key: '1.4',
+                    on: 'Drive On',
+                    off: 'Drive Off',
+                    relay: 'OP-R36',
+                    relayType: 'SPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Points Set Left',
+                    slot: 5,
+                    channel: 5,
+                    key: '1.5',
+                    on: 'Drive On',
+                    off: 'Drive Off',
+                    relay: 'OP-R37',
+                    relayType: 'SPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Unlock Command-1',
+                    slot: 5,
+                    channel: 6,
+                    key: '1.6',
+                    on: 'Unlock',
+                    off: 'Not Set',
+                    relay: 'TB2-38/A',
+                    relayType: 'ULTR'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'output',
+                    signal: 'Unlock Command-2',
+                    slot: 5,
+                    channel: 7,
+                    key: '1.7',
+                    on: 'Unlock',
+                    off: 'Not Set',
+                    relay: 'TB2-38/B',
+                    relayType: 'ULTR'
+                }
+        ]
     }
 ]

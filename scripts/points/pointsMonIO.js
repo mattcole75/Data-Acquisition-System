@@ -15,5 +15,5 @@ config.forEach(point => {
 pointIO.forEach(io => {
     io.start();
 
-    console.log('ok - ' + io.name + ' IO monitoring started.');
+    console.log('ok - ' + io.area + ' IO monitoring started.');
 });
