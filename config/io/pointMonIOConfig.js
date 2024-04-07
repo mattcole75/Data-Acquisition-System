@@ -49,7 +49,7 @@ module.exports = points = [
                 slot: 2,
                 channel: 5,
                 key: '0.5',
-                on: 'Unloack Enabled',
+                on: 'Unlock Enabled',
                 off: 'Unlock Disabled',
                 relay: 'IP-TB5',
                 relayType: 'ULTR-1'
