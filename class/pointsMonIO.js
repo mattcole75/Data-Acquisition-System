@@ -11,6 +11,10 @@ const idToken = localStorage.getItem('idToken');
 // const config = require('../../../config/config');
 // const sparkToken = config.get('sparkToken');
 
+// let tailOptions = { useWatchFile: true, persistent: true, follow: true };
+// let tailOptions = { fsWatchOptions: { persistent: true }, follow: true };
+let tailOptions = { useWatchFile: true };
+
 class PointsMonIO {
 
     constructor (id, area, path, IO) {
@@ -23,14 +27,18 @@ class PointsMonIO {
         this.status = 'Stopped';
     };
 
+
     connect = () => {
         try {
-            this.tail = new Tail(this.path + `${this.area}.${moment().format('YYYY-MM-DD')}.log`, { fsWatchOptions: { persistent: true }, follow: true });
+            // this.tail = new Tail(this.path + `${this.area}.${moment().format('YYYY-MM-DD')}.log`, { fsWatchOptions: { persistent: true, useWatchFile: true, follow: true } });
+            // this.tail = new Tail(this.path + `${this.area}.${moment().format('YYYY-MM-DD')}.log`, { fsWatchOptions: { persistent: true }, follow: true });
+            this.tail = new Tail(this.path + `${this.area}.${moment().format('YYYY-MM-DD')}.log`, tailOptions);
+            // this.tail = new Tail(this.path + `${this.area}.${moment().format('YYYY-MM-DD')}.log`);
+            this.status = 'Connected';
         } catch(err) {
             this.tail = null;
-            console.log(`${ moment().format('YYYY-MM-DD HH:mm:ss:SSS') } Failed to initialise tail for ${this.area}`);
+            console.log(`${ moment().format('YYYY-MM-DD HH:mm:ss:SSS') } Failed to initialise tail for ${this.id}`);
             this.status = 'Error';
-            return;
         }
     }
 
@@ -105,7 +113,7 @@ class PointsMonIO {
                     // ioSignals[ioSignalIndex].setEventTimestamp(moment(new Date(logDate + ' ' + this.msg.eventTimestamp)).format('YYYY-MM-DD HH:mm:ss.SSS'));
                     
                     //console output for monitoring
-                    console.log(moment().format('YYYY-MM-DD HH:mm:ss:SSS'), this.id, ioSignals[ioSignalIndex].ioType, ioSignals[ioSignalIndex].signal, parseFloat(ioSignals[ioSignalIndex].key),
+                    console.log(moment().format('YYYY-MM-DD HH:mm:ss:SSS'), this.id, ioSignals[ioSignalIndex].ioType, ioSignals[ioSignalIndex].signal, ioSignals[ioSignalIndex].key,
                         ioSignals[ioSignalIndex].state === 'on'
                             ? ioSignals[ioSignalIndex].onState
                             :   ioSignals[ioSignalIndex].state === 'off'
@@ -143,8 +151,16 @@ class PointsMonIO {
         })
 
         this.tail.on('error', (err) => {
-            console.log(moment().format('YYYY-MM-DD HH:mm:ss:SSS'), err);
-            this.status = 'Error';
+            
+            console.log('MC');
+            console.log(`${ moment().format('YYYY-MM-DD HH:mm:ss:SSS') } ${ this.id }: ${ err }`);
+
+            try {
+                this.connect();
+            } catch {
+                this.tail = null;
+                this.status = 'Error';
+            }
         })
     };
 }

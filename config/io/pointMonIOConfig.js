@@ -1,4 +1,4 @@
-const paths = require('./app2LogPaths');
+const paths = require('./app1LogPaths');
 
 module.exports = points = [
     {
@@ -41,66 +41,6 @@ module.exports = points = [
                 off: 'Free',
                 relay: 'IP-R4*',
                 relayType: 'DPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'input',
-                signal: 'ULTR-1 Feedback',
-                slot: 2,
-                channel: 5,
-                key: '0.5',
-                on: 'Unlock Enabled',
-                off: 'Unlock Disabled',
-                relay: 'IP-TB5',
-                relayType: 'ULTR-1'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Right',
-                slot: 3,
-                channel: 1,
-                key: '0.1',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R1',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Left',
-                slot: 3,
-                channel: 2,
-                key: '0.2',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R2',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-1',
-                slot: 3,
-                channel: 3,
-                key: '0.3',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULTR-1*',
-                relayType: 'ULTR'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-2',
-                slot: 3,
-                channel: 4,
-                key: '0.4',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULRT-1*',
-                relayType: 'ULTR'
             }
         ]
     },
@@ -144,66 +84,6 @@ module.exports = points = [
                 off: 'Free',
                 relay: 'IP-R4',
                 relayType: 'DPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'input',
-                signal: 'ULTR-1 Feedback',
-                slot: 2,
-                channel: 30,
-                key: '0.30',
-                on: 'Unloack Enabled',
-                off: 'Unlock Disabled',
-                relay: 'IP-30',
-                relayType: 'TB'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Right',
-                slot: 3,
-                channel: 1,
-                key: '0.1',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R1',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Left',
-                slot: 3,
-                channel: 2,
-                key: '0.2',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R2',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-1',
-                slot: 3,
-                channel: 3,
-                key: '0.3',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULTR-1',
-                relayType: 'ULTR'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-2',
-                slot: 3,
-                channel: 4,
-                key: '0.4',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULRT-1',
-                relayType: 'ULTR'
             }
         ]
     },
@@ -247,66 +127,6 @@ module.exports = points = [
                 off: 'Free',
                 relay: 'IP-R7',
                 relayType: 'DPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'input',
-                signal: 'ULTR-1 Feedback',
-                slot: 2,
-                channel: 31,
-                key: '0.31',
-                on: 'Unloack Enabled',
-                off: 'Unlock Disabled',
-                relay: 'IP-31',
-                relayType: 'TB'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Right',
-                slot: 3,
-                channel: 5,
-                key: '0.5',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R5',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Left',
-                slot: 3,
-                channel: 6,
-                key: '0.6',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R6',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-1',
-                slot: 3,
-                channel: 7,
-                key: '0.7',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULTR-2',
-                relayType: 'ULTR'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-2',
-                slot: 3,
-                channel: 8,
-                key: '0.8',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULRT-2',
-                relayType: 'ULTR'
             }
         ]
     },
@@ -350,66 +170,6 @@ module.exports = points = [
                 off: 'Free',
                 relay: 'IP-R4',
                 relayType: 'DPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'input',
-                signal: 'ULTR-1 Feedback',
-                slot: 2,
-                channel: 31,
-                key: '0.31',
-                on: 'Unloack Enabled',
-                off: 'Unlock Disabled',
-                relay: 'IP-30',
-                relayType: 'TB'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Right',
-                slot: 3,
-                channel: 1,
-                key: '0.1',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R1',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Left',
-                slot: 3,
-                channel: 2,
-                key: '0.2',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R2',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-1',
-                slot: 3,
-                channel: 3,
-                key: '0.3',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULTR-1',
-                relayType: 'ULTR'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-2',
-                slot: 3,
-                channel: 4,
-                key: '0.4',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULRT-1',
-                relayType: 'ULTR'
             }
         ]
     },
@@ -453,66 +213,6 @@ module.exports = points = [
                     off: 'Free',
                     relay: 'IP-R34',
                     relayType: 'DPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'input',
-                    signal: 'ULTR-4 Feedback',
-                    slot: 3,
-                    channel: 26,
-                    key: '1.26',
-                    on: 'Unloack Enabled',
-                    off: 'Unlock Disabled',
-                    relay: 'TB58',
-                    relayType: 'TB'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Right',
-                    slot: 5,
-                    channel: 0,
-                    key: '1.0',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R32',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Left',
-                    slot: 5,
-                    channel: 1,
-                    key: '1.1',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R33',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-1',
-                    slot: 5,
-                    channel: 2,
-                    key: '1.2',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'ULTR-4',
-                    relayType: 'ULTR'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-2',
-                    slot: 5,
-                    channel: 3,
-                    key: '1.3',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'ULRT-4',
-                    relayType: 'ULTR'
                 }
         ]
     },
@@ -556,66 +256,6 @@ module.exports = points = [
                 off: 'Free',
                 relay: 'IP-R4',
                 relayType: 'DPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'input',
-                signal: 'ULTR-1 Feedback',
-                slot: 2,
-                channel: 29,
-                key: '0.29',
-                on: 'Unloack Enabled',
-                off: 'Unlock Disabled',
-                relay: 'TB-29',
-                relayType: 'TB'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Right',
-                slot: 4,
-                channel: 1,
-                key: '0.1',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R1',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Left',
-                slot: 4,
-                channel: 2,
-                key: '0.2',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R2',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-1',
-                slot: 4,
-                channel: 3,
-                key: '0.3',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULTR-1',
-                relayType: 'ULTR'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-2',
-                slot: 4,
-                channel: 4,
-                key: '0.4',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULRT-1',
-                relayType: 'ULTR'
             }
         ]
     },
@@ -659,66 +299,6 @@ module.exports = points = [
                     off: 'Free',
                     relay: 'IP-R45',
                     relayType: 'DPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'input',
-                    signal: 'ULTR-5 Feedback',
-                    slot: 3,
-                    channel: 27,
-                    key: '1.27',
-                    on: 'Unloack Enabled',
-                    off: 'Unlock Disabled',
-                    relay: 'TB59',
-                    relayType: 'TB'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Right',
-                    slot: 6,
-                    channel: 0,
-                    key: '2.0',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R64',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Left',
-                    slot: 6,
-                    channel: 1,
-                    key: '2.1',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R65',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-1',
-                    slot: 6,
-                    channel: 2,
-                    key: '2.2',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'ULTR-5',
-                    relayType: 'ULTR'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-2',
-                    slot: 6,
-                    channel: 3,
-                    key: '2.3',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'ULRT-5',
-                    relayType: 'ULTR'
                 }
         ]
     },
@@ -762,66 +342,6 @@ module.exports = points = [
                     off: 'Free',
                     relay: 'IP-R48',
                     relayType: 'DPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'input',
-                    signal: 'ULTR-6 Feedback',
-                    slot: 3,
-                    channel: 28,
-                    key: '1.28',
-                    on: 'Unloack Enabled',
-                    off: 'Unlock Disabled',
-                    relay: 'TB60',
-                    relayType: 'TB'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Right',
-                    slot: 6,
-                    channel: 4,
-                    key: '2.4',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R68',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Left',
-                    slot: 6,
-                    channel: 5,
-                    key: '2.5',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R69',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-1',
-                    slot: 6,
-                    channel: 6,
-                    key: '2.6',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'ULTR-6',
-                    relayType: 'ULTR'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-2',
-                    slot: 6,
-                    channel: 7,
-                    key: '2.7',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'ULRT-6',
-                    relayType: 'ULTR'
                 }
         ]
     },
@@ -865,66 +385,6 @@ module.exports = points = [
                 off: 'Free',
                 relay: 'IP-R7',
                 relayType: 'DPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'input',
-                signal: 'ULTR-2 Feedback',
-                slot: 2,
-                channel: 30,
-                key: '0.30',
-                on: 'Unloack Enabled',
-                off: 'Unlock Disabled',
-                relay: 'TB-30',
-                relayType: 'TB'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Right',
-                slot: 4,
-                channel: 5,
-                key: '0.5',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R5',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Points Set Left',
-                slot: 4,
-                channel: 6,
-                key: '0.6',
-                on: 'Drive On',
-                off: 'Drive Off',
-                relay: 'OP-R6',
-                relayType: 'SPDT'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-1',
-                slot: 4,
-                channel: 7,
-                key: '0.7',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULTR-2',
-                relayType: 'ULTR'
-            },
-            {
-                system: 'lc',
-                ioType: 'output',
-                signal: 'Unlock Command-2',
-                slot: 4,
-                channel: 8,
-                key: '0.8',
-                on: 'Unlock',
-                off: 'Not Set',
-                relay: 'ULRT-2',
-                relayType: 'ULTR'
             }
         ]
     },
@@ -968,66 +428,6 @@ module.exports = points = [
                     off: 'Free',
                     relay: 'IP-R10',
                     relayType: 'DPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'input',
-                    signal: 'ULTR-3 Feedback',
-                    slot: 2,
-                    channel: 31,
-                    key: '0.31',
-                    on: 'Unloack Enabled',
-                    off: 'Unlock Disabled',
-                    relay: 'TB-31',
-                    relayType: 'TB'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Right',
-                    slot: 4,
-                    channel: 9,
-                    key: '0.9',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R9',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Left',
-                    slot: 4,
-                    channel: 10,
-                    key: '0.10',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R10',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-1',
-                    slot: 4,
-                    channel: 11,
-                    key: '0.11',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'ULTR-3',
-                    relayType: 'ULTR'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-2',
-                    slot: 4,
-                    channel: 12,
-                    key: '0.12',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'ULRT-3',
-                    relayType: 'ULTR'
                 }
         ]
     },
@@ -1071,66 +471,6 @@ module.exports = points = [
                     off: 'Free',
                     relay: 'TB1-31',
                     relayType: 'DPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'input',
-                    signal: 'ULTR-1 Feedback',
-                    slot: 3,
-                    channel: 29,
-                    key: '1.29',
-                    on: 'Unloack Enabled',
-                    off: 'Unlock Disabled',
-                    relay: 'TB1-36',
-                    relayType: 'TB'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Right',
-                    slot: 4,
-                    channel: 1,
-                    key: '0.1',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R1',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Left',
-                    slot: 4,
-                    channel: 2,
-                    key: '0.2',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R2',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-1',
-                    slot: 4,
-                    channel: 3,
-                    key: '0.3',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'TB2-36/A',
-                    relayType: 'ULTR'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-2',
-                    slot: 4,
-                    channel: 4,
-                    key: '0.4',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'TB2-36/B',
-                    relayType: 'ULTR'
                 }
         ]
     },
@@ -1174,66 +514,6 @@ module.exports = points = [
                     off: 'Free',
                     relay: 'TB1-33',
                     relayType: 'DPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'input',
-                    signal: 'ULTR-1 Feedback',
-                    slot: 3,
-                    channel: 30,
-                    key: '1.30',
-                    on: 'Unloack Enabled',
-                    off: 'Unlock Disabled',
-                    relay: 'TB1-37',
-                    relayType: 'TB'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Right',
-                    slot: 5,
-                    channel: 0,
-                    key: '1.0',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R32',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Left',
-                    slot: 5,
-                    channel: 1,
-                    key: '1.1',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R33',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-1',
-                    slot: 5,
-                    channel: 2,
-                    key: '1.2',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'TB2-37/A',
-                    relayType: 'ULTR'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-2',
-                    slot: 5,
-                    channel: 3,
-                    key: '1.3',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'TB2-37/A',
-                    relayType: 'ULTR'
                 }
         ]
     },
@@ -1277,67 +557,2415 @@ module.exports = points = [
                     off: 'Free',
                     relay: 'TB1-35',
                     relayType: 'DPDT'
+                }
+         ]
+    },
+    {
+        id: 'AIR08M',
+        area: 'AIR',
+        path: paths.find(path => path.area === 'AIR').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
                 },
                 {
                     system: 'lc',
                     ioType: 'input',
-                    signal: 'ULTR-1 Feedback',
-                    slot: 3,
-                    channel: 31,
-                    key: '1.31',
-                    on: 'Unloack Enabled',
-                    off: 'Unlock Disabled',
-                    relay: 'TB1-38',
-                    relayType: 'TB'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Points Set Right',
-                    slot: 5,
-                    channel: 4,
-                    key: '1.4',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R36',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
                     signal: 'Points Set Left',
-                    slot: 5,
-                    channel: 5,
-                    key: '1.5',
-                    on: 'Drive On',
-                    off: 'Drive Off',
-                    relay: 'OP-R37',
-                    relayType: 'SPDT'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-1',
-                    slot: 5,
-                    channel: 6,
-                    key: '1.6',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'TB2-38/A',
-                    relayType: 'ULTR'
-                },
-                {
-                    system: 'lc',
-                    ioType: 'output',
-                    signal: 'Unlock Command-2',
-                    slot: 5,
+                    slot: 2,
                     channel: 7,
-                    key: '1.7',
-                    on: 'Unlock',
-                    off: 'Not Set',
-                    relay: 'TB2-38/B',
-                    relayType: 'ULTR'
+                    key: '0.7',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 8,
+                    key: '0.8',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R8',
+                    relayType: 'DPDT'
                 }
         ]
+    },
+    {
+        id: 'ASH05M',
+        area: 'ASH',
+        path: paths.find(path => path.area === 'ASH').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+        ]
+    },
+    {
+        id: 'BDW02M',
+        area: 'BDW',
+        path: paths.find(path => path.area === 'BDW').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+        ]
+    },
+    {
+        id: 'BDW08M',
+        area: 'BDW',
+        path: paths.find(path => path.area === 'BDW').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                }
+        ]
+    },
+    {
+        id: 'BRY04M',
+        area: 'BRY',
+        path: paths.find(path => path.area === 'BRY').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'BRY05M',
+        area: 'BRY',
+        path: paths.find(path => path.area === 'BRY').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'BRY07M',
+        area: 'BRY',
+        path: paths.find(path => path.area === 'BRY').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 8,
+                    key: '0.8',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R8',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 9,
+                    key: '0.9',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R9',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 10,
+                    key: '0.10',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R10',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'BRY08M',
+        area: 'BRY',
+        path: paths.find(path => path.area === 'BRY').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 11,
+                    key: '0.11',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R11',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 12,
+                    key: '0.12',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R12',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 13,
+                    key: '0.13',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R13',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'DCF02M',
+        area: 'DCF',
+        path: paths.find(path => path.area === 'DCF').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'DCF14M',
+        area: 'DCF',
+        path: paths.find(path => path.area === 'DCF').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 3,
+                    channel: 0,
+                    key: '1.0',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R32',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 3,
+                    channel: 1,
+                    key: '1.1',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R33',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 3,
+                    channel: 3,
+                    key: '1.2',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R34',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'EDD02M',
+        area: 'EDD',
+        path: paths.find(path => path.area === 'EDD').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'EDD03M',
+        area: 'EDD',
+        path: paths.find(path => path.area === 'EDD').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 8,
+                    key: '0.8',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R8',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'FIR10M',
+        area: 'FIR',
+        path: paths.find(path => path.area === 'FIR').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'FIR11M',
+        area: 'FIR',
+        path: paths.find(path => path.area === 'FIR').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'HBC04M',
+        area: 'HBC',
+        path: paths.find(path => path.area === 'HBC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'MEC03M',
+        area: 'MEC',
+        path: paths.find(path => path.area === 'MEC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'MEC08M',
+        area: 'MEC',
+        path: paths.find(path => path.area === 'MEC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 8,
+                    key: '0.8',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R8',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'MKT05M',
+        area: 'MKT',
+        path: paths.find(path => path.area === 'MEC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'MKT09M',
+        area: 'MKT',
+        path: paths.find(path => path.area === 'MEC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'MKT16M',
+        area: 'MKT',
+        path: paths.find(path => path.area === 'MKT').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 8,
+                    key: '0.8',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R8',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 9,
+                    key: '0.9',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R9',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 10,
+                    key: '0.10',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R10',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'MON02M',
+        area: 'MON',
+        path: paths.find(path => path.area === 'MON').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'MON03M',
+        area: 'MON',
+        path: paths.find(path => path.area === 'MON').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'MON13M',
+        area: 'MON',
+        path: paths.find(path => path.area === 'MON').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 8,
+                    key: '0.8',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R8',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 9,
+                    key: '0.9',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R9',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 10,
+                    key: '0.10',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R10',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'NEB06M',
+        area: 'NEB',
+        path: paths.find(path => path.area === 'NEB').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'NHM03M',
+        area: 'NHM',
+        path: paths.find(path => path.area === 'NHM').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'NHM09M',
+        area: 'NHM',
+        path: paths.find(path => path.area === 'NHM').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 3,
+                    channel: 0,
+                    key: '1.0',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R32',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 3,
+                    channel: 1,
+                    key: '1.1',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R33',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 3,
+                    channel: 2,
+                    key: '1.2',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R34',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'OLD02M',
+        area: 'OLD',
+        path: paths.find(path => path.area === 'OLD').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'OLD03M',
+        area: 'OLD',
+        path: paths.find(path => path.area === 'OLD').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'OLD11M',
+        area: 'OLD',
+        path: paths.find(path => path.area === 'OLD').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 8,
+                    key: '0.8',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R8',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 9,
+                    key: '0.9',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R9',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 10,
+                    key: '0.10',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R10',
+                    relayType: 'DPDT'
+                },
+        ]
+    },
+    {
+        id: 'PIC07M',
+        area: 'PIC',
+        path: paths.find(path => path.area === 'PIC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'PIC11M',
+        area: 'PIC',
+        path: paths.find(path => path.area === 'PIC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 8,
+                    key: '0.8',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R8',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 9,
+                    key: '0.9',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R9',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 10,
+                    key: '0.10',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R10',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'QNS02M',
+        area: 'QNS',
+        path: paths.find(path => path.area === 'QNS').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'QNS17M',
+        area: 'QNS',
+        path: paths.find(path => path.area === 'QNS').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'QNS18M',
+        area: 'QNS',
+        path: paths.find(path => path.area === 'QNS').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 8,
+                    key: '0.8',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R8',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 9,
+                    key: '0.9',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R9',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 10,
+                    key: '0.10',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R10',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'QNS19M',
+        area: 'QNS',
+        path: paths.find(path => path.area === 'QNS').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 11,
+                    key: '0.11',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R11',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 12,
+                    key: '0.12',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R12',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 13,
+                    key: '0.13',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R13',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'ROC03M',
+        area: 'ROC',
+        path: paths.find(path => path.area === 'ROC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'RTC14M',
+        area: 'RTC',
+        path: paths.find(path => path.area === 'RTC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'SHC02M',
+        area: 'SHC',
+        path: paths.find(path => path.area === 'SHC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'SPS33M',
+        area: 'SPS',
+        path: paths.find(path => path.area === 'SPS').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'SWR06M',
+        area: 'SWR',
+        path: paths.find(path => path.area === 'SWR').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 11,
+                    key: '0.11',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R11',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 12,
+                    key: '0.12',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R12',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 13,
+                    key: '0.13',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R13',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'SWR08M',
+        area: 'SWR',
+        path: paths.find(path => path.area === 'SWR').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 14,
+                    key: '0.14',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R14',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 15,
+                    key: '0.15',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R15',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 16,
+                    key: '0.16',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R16',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'TMP03M',
+        area: 'TMP',
+        path: paths.find(path => path.area === 'TMP').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'TMP05M',
+        area: 'TMP',
+        path: paths.find(path => path.area === 'TMP').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'TMP08M',
+        area: 'TMP',
+        path: paths.find(path => path.area === 'TMP').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 8,
+                    key: '0.8',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R8',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 9,
+                    key: '0.9',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R9',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 10,
+                    key: '0.10',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R10',
+                    relayType: 'DPDT'
+                }
+        ]
+    },
+    {
+        id: 'TRC04M',
+        area: 'TRC',
+        path: paths.find(path => path.area === 'TRC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'VEL03M',
+        area: 'VEL',
+        path: paths.find(path => path.area === 'VEL').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'VIC15M',
+        area: 'VIC',
+        path: paths.find(path => path.area === 'VIC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'VIC11M',
+        area: 'VIC',
+        path: paths.find(path => path.area === 'VIC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 3,
+                    channel: 0,
+                    key: '1.0',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R32',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 3,
+                    channel: 1,
+                    key: '1.1',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R33',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 3,
+                    channel: 2,
+                    key: '1.2',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R34',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'VIC28M',
+        area: 'VIC',
+        path: paths.find(path => path.area === 'VIC').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 3,
+                    channel: 3,
+                    key: '1.3',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R35',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 3,
+                    channel: 4,
+                    key: '1.4',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R36',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 3,
+                    channel: 5,
+                    key: '1.5',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R37',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'VIM02M',
+        area: 'VIM',
+        path: paths.find(path => path.area === 'VIM').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'VIM03M',
+        area: 'VIM',
+        path: paths.find(path => path.area === 'VIM').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'VIM04M',
+        area: 'VIM',
+        path: paths.find(path => path.area === 'VIM').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 8,
+                    key: '0.8',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R8',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 9,
+                    key: '0.9',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R9',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 10,
+                    key: '0.10',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R10',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'VIM13M',
+        area: 'VIM',
+        path: paths.find(path => path.area === 'VIM').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 11,
+                    key: '0.11',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R11',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 12,
+                    key: '0.12',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R12',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 13,
+                    key: '0.13',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R13',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'VIM05M',
+        area: 'VIM',
+        path: paths.find(path => path.area === 'VIM').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 3,
+                    channel: 0,
+                    key: '1.0',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R32',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 3,
+                    channel: 1,
+                    key: '1.1',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R33',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 3,
+                    channel: 2,
+                    key: '1.2',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R34',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'WFD04M',
+        area: 'WFD',
+        path: paths.find(path => path.area === 'WFD').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 2,
+                    key: '0.2',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R2',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 3,
+                    key: '0.3',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R3',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 4,
+                    key: '0.4',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R4',
+                    relayType: 'DPDT'
+                }
+            ]
+    },
+    {
+        id: 'WFD06M',
+        area: 'WFD',
+        path: paths.find(path => path.area === 'WFD').path,
+        IO: [
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Right',
+                    slot: 2,
+                    channel: 5,
+                    key: '0.5',
+                    on: 'Detected Right',
+                    off: 'Not Detected Right',
+                    relay: 'IP-R5',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Points Set Left',
+                    slot: 2,
+                    channel: 6,
+                    key: '0.6',
+                    on: 'Detected Left',
+                    off: 'Not Detected Left',
+                    relay: 'IP-R6',
+                    relayType: 'DPDT'
+                },
+                {
+                    system: 'lc',
+                    ioType: 'input',
+                    signal: 'Point Locked',
+                    slot: 2,
+                    channel: 7,
+                    key: '0.7',
+                    on: 'Locked',
+                    off: 'Free',
+                    relay: 'IP-R7',
+                    relayType: 'DPDT'
+                }
+            ]
     }
 ]

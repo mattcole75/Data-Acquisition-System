@@ -2,6 +2,9 @@ const moment = require('moment');
 const PointsMonIO = require('../../class/pointsMonIO');
 const config = require('../../config/io/pointMonIOConfig');
 const pointIO = [];
+require('events').EventEmitter.defaultMaxListeners = 82;
+
+// process.setMaxListeners(0);
 
 // load point IO
 const loadConfig = () => {
@@ -14,12 +17,21 @@ const loadConfig = () => {
     });
 }
 
+// connect to the log files
+const connectToLogFiles = () => {
+    pointIO.forEach(io => {
+        io.connect();
+        console.log('ok - ' + io.area + ' log file ' + io.status);
+    })
+}
+
 // start monitoring
 const start = () => {
     pointIO.forEach(io => {
-        io.start();
-    
-        console.log('ok - ' + io.area + ' IO monitoring started.');
+        if(io.status !== 'Error') {
+            io.start();
+            console.log('ok - ' + io.area + ' IO monitoring started.');
+        }
     });
 }
 
@@ -62,12 +74,16 @@ const rotateLogs = () => {
 const tryStartFailedIO = () => {
     pointIO.forEach(io => {
         if(io.status === 'Error') {
+            io.connect();
+        }
+        if(io.status === 'Connected') {
             io.start();
         }
     });
 }
 
 loadConfig();
+connectToLogFiles();
 start();
 
 setInterval(checkIO, 60000);
